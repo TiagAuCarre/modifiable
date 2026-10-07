@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document collaboratif</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <main class="app">
+        <header class="topbar">
+            <div>
+                <h1>Document partagé</h1>
+                <span id="status" class="status">Connexion…</span>
+            </div>
+
+            <button id="editButton" class="edit-button">
+                ✏️ Modifier
+            </button>
+        </header>
+
+        <section class="document">
+            <textarea
+                id="editor"
+                placeholder="Écrivez quelque chose…"
+                spellcheck="true"
+                disabled
+            ></textarea>
+        </section>
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+</html>

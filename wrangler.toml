@@ -1,0 +1,11 @@
+name = "modifiable"
+main = "worker.js"
+compatibility_date = "2026-10-08"
+
+[assets]
+directory = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "modifiable"
+database_id = "53f2ae57-6355-4d1f-bb8d-927204a12a32"
