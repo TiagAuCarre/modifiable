@@ -1,6 +1,6 @@
 name = "modifiable"
 main = "worker.js"
-compatibility_date = "2026-10-08"
+compatibility_date = "2026-10-07"
 
 [assets]
 directory = "."
